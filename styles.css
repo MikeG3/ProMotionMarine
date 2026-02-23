@@ -22,11 +22,68 @@ body {
 
 /* NAVBAR */
 .navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background: var(--primary-blue);
+  background-color: #0b3c5d; /* marine blue */
+  padding: 0 20px;
+  position: sticky;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  position: sticky;
+}
+
+.nav-menu li {
+  position: relative; /* needed for dropdown */
+}
+
+.nav-menu a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 12px 8px;
+  display: block;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-menu a:hover {
+  background-color: #ffffff;
+  color: #0b3c5d;
+  border-radius: 4px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  list-style: none;
+  padding: 5px 0;
+  margin: 0;
+  min-width: 140px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   z-index: 1000;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu a {
+  color: #0b3c5d;
+  padding: 10px 15px;
+  white-space: nowrap;
+}
+
+.dropdown-menu a:hover {
+  background-color: #0b3c5d;
+  color: #ffffff;
 }
 
 .nav-container {
@@ -36,6 +93,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
 }
 
 .logo {
@@ -48,6 +106,7 @@ body {
   list-style: none;
   display: flex;
   gap: 2rem;
+  position: sticky;
 }
 
 .nav-links a {
