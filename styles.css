@@ -34,6 +34,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #000000;
+  color: white;
+}
+
+.langSelect {
+  margin-left: -20px;
+  padding: 0 -10.5rem;
 }
 
 .nav-menu {
@@ -54,7 +61,6 @@ body {
   color: #ffffff;
   text-decoration: none;
   font-weight: 500;
-  padding: 12px 8px;
   display: block;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
@@ -67,12 +73,12 @@ body {
 
 .dropdown-menu {
   display: none;
-  position: absolute;
+  position: relative;
   top: 100%;
   left: 0;
   background-color: #ffffff;
   list-style: none;
-  padding: 5px 0;
+  padding: 0;
   margin: 0;
   min-width: 140px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
@@ -86,7 +92,6 @@ body {
 
 .dropdown-menu a {
   color: #0b3c5d;
-  padding: 10px 15px;
   white-space: nowrap;
 }
 
@@ -114,7 +119,8 @@ body {
 }
 
 .nav-links a:hover {
-  color: black
+  color: black;
+  background-color: white;
 }
 
 /* HERO (Golden Ratio ≈ 62vh) */
