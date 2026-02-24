@@ -7,8 +7,7 @@
 
 /* VARIABLES */
 :root {
-  --primary-blue: rgba(0, 70, 130, 0.95);
-  --white: #ffffff;
+  --backgroundcolor: rgba(0, 0, 0, 0.95);
   --dark: #222;
   --light-gray: #f4f6f8;
 }
@@ -22,9 +21,19 @@ body {
 
 /* NAVBAR */
 .navbar {
-  background-color: #0b3c5d; /* marine blue */
+  background-color: #000000;
   padding: 0 20px;
   position: sticky;
+  top: 0;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-menu {
@@ -86,18 +95,8 @@ body {
   color: #ffffff;
 }
 
-.nav-container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: sticky;
-}
-
 .logo {
-  color: var(--white);
+  color: white;
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -106,23 +105,22 @@ body {
   list-style: none;
   display: flex;
   gap: 2rem;
-  position: sticky;
 }
 
 .nav-links a {
-  color: var(--white);
+  color: white;
   text-decoration: none;
   font-weight: 500;
 }
 
 .nav-links a:hover {
-  text-decoration: underline;
+  color: black
 }
 
 /* HERO (Golden Ratio ≈ 62vh) */
 .hero {
   height: 62vh;
-  background: var(--primary-blue);
+  background: var(--backgroundcolor);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -132,7 +130,7 @@ body {
 .hero-content {
   max-width: 800px;
   text-align: center;
-  color: var(--white);
+  color: white;
   padding: 2rem;
 }
 
