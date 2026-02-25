@@ -177,6 +177,18 @@ body {
   text-align: center;
 }
 
+.movie-list ul {
+  list-style-position: inside;
+  padding-left: 0; /* Removes default indentation */
+}
+
+.movie-list li {
+  text-align: left;
+  margin-left: 33.3%;
+  list-style-position: inside;
+  padding-left: 0; /* Removes default indentation */
+}
+
 /* FOOTER */
 footer {
   background-color: #000000;
