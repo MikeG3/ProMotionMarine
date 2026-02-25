@@ -133,6 +133,18 @@ body {
   padding: 5rem 2rem;
 }
 
+.dark-section {
+  padding: 2rem;
+  background: #f4f6f8;
+  text-align: center;
+}
+
+.light-section {
+  padding: 2rem;
+  background: white;
+  text-align: center;
+}
+
 .icon-gallery {
   display: flex;
   justify-content: center;
@@ -144,10 +156,6 @@ body {
   flex-direction: column;
   text-align: center;
   position: relative; left: -10px;
-}
-
-.section.alt {
-  background: #f4f6f8;
 }
 
 .section h2 {
@@ -168,6 +176,25 @@ body {
   align-items: center;
   text-align: center;
 }
+
+/* FOOTER */
+footer {
+  background-color: #000000;
+  color: white;
+  display: flex;
+  justify-content: space-between; /* Pushes items to the edges */
+  width: 100%; /* Ensure the container spans the full width */
+  }
+
+.left-footer {
+  text-align: left;
+  float: left;
+  }
+
+.right-footer {
+  text-align: right;
+  float: right;
+  }
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
