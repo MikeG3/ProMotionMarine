@@ -17,6 +17,11 @@
     width: 50%;
     height: 40%;
   }
+ 
+.icon:hover {
+  width: 60%;
+  height: 50%;
+}
 
   .icon-gallery figcaption{
     padding-top: 0.5rem;
