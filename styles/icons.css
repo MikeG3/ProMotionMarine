@@ -1,0 +1,12 @@
+.icon-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 15%; 
+}
+
+.icon-gallery figcaption{
+  padding-top: 0.5rem;
+  flex-direction: column;
+  text-align: center;
+  position: relative; left: -10px;
+}
