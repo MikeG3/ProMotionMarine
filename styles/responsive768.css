@@ -1,0 +1,28 @@
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .nav-links {
+    gap: 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero {
+    height: auto;
+    padding: 6rem 1rem 4rem;
+  }
+
+  .icon {
+    width: 50%;
+    height: 40%;
+  }
+
+  .icon-gallery figcaption{
+    padding-top: 0.5rem;
+    flex-direction: column;
+    text-align: center;
+    position: relative; left: -25%;
+  }
+
+}

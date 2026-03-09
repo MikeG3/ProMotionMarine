@@ -1,0 +1,25 @@
+/* HERO (Golden Ratio ≈ 62vh) */
+.hero {
+  height: 62vh;
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px; /* offset for navbar */
+}
+
+.hero-content {
+  max-width: 800px;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}

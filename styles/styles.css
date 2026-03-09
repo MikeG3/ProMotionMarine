@@ -1,0 +1,61 @@
+@import url("menuBar.css");
+@import url("movieposters.css");
+@import url("sectionContent.css");
+@import url("responsive768.css");
+@import url("hero.css");
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  z-index: 0;
+}
+
+/* BASE */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: var(--dark);
+}
+
+.icon-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 15%; 
+}
+
+.icon-gallery figcaption{
+  padding-top: 0.5rem;
+  flex-direction: column;
+  text-align: center;
+  position: relative; left: -10px;
+}
+
+#contact {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  background-color: #000000;
+  color: white;
+  display: flex;
+  justify-content: space-between; /* Pushes items to the edges */
+  width: 100%; /* Ensure the container spans the full width */
+  }
+
+.left-footer {
+  text-align: left;
+  float: left;
+  }
+
+.right-footer {
+  text-align: right;
+  float: right;
+  }

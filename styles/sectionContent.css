@@ -1,0 +1,32 @@
+/* SECTIONS */
+.section {
+  padding: 5rem 2rem;
+}
+
+.dark-section {
+  padding: 2rem;
+  background: #f4f6f8;
+  text-align: center;
+}
+
+.light-section {
+  padding: 2rem;
+  background: white;
+  text-align: center;
+}
+
+.light-section li, .dark-section li {
+  text-align: left;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.section-content {
+  max-width: 900px;
+  margin: auto;
+  font-size: 1.05rem;
+}
