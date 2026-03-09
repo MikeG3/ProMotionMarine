@@ -12,7 +12,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
+
 </head>
+
 <body>
 
   <!-- NAVIGATION -->
@@ -72,6 +74,7 @@
   </p>
   </section>
 
+
   <section id="FilmService" class="light-section">
   <h2>Film Production Marine Support</h2>
   <br>
@@ -79,17 +82,64 @@
     Michael Martin and Pro Motion Marine have provided marine support and safety coordination for film productions, both large American and smaller Québec including:
   </p> 
   <br> 
-  <ul class="movie-list">
-    <li>2000 The Whole Nine Yards</li>
-    <li>2003 Timeline</li>
-    <li>2008 Journey to the Center of the Earth</li>
-    <li>2008 The Curious Case of Benjamin Button</li>
-    <li>2013 Father and Guns 2</li>
-    <li>2013 White House Down</li>
-    <li>2014 X‑Men: Days of Future Past</li>
-    <li>2019 X‑Men: Dark Phoenix</li>
-    <li>2023 Transformers: Rise of the Beasts</li>
-  </ul>
+  
+  <!-- MOVIE POSTERS, TITLES AND YEARS-->
+ <section id="film">
+  <div class="movie-list">
+
+    <div class="movie">
+      <img src="images/movieposters/NineYards.jpg" alt="The Whole Nine Yards" class="poster">
+      <span>2000 – The Whole Nine Yards</span>
+    </div>
+
+    <div class="movie">
+      <img src="images/movieposters/Timeline.jpg" alt="Timeline" class="poster">
+      <span>2003 – Timeline</span>
+    </div>
+
+    <div class="movie">
+      <img src="images/movieposters/Journey.jpg" alt="Journey to the Center of the Earth" class="poster">
+      <span>2008 – Journey to the Center of the Earth</span>
+    </div>
+
+    <div class="movie">
+      <img src="images/movieposters/BenjaminButton.jpg" alt="Benjamin Button" class="poster">
+      <span>2008 – The Curious Case of Benjamin Button</span>
+    </div>
+
+    <div class="movie">
+      <img src="images/movieposters/FatherGuns2.jpg" alt="Father and Guns 2" class="poster">
+      <span>2013 – Father and Guns 2</span>
+    </div>
+
+    <div class="movie">
+      <img src="images/movieposters/WhiteHouse.jpg" alt="White House Down" class="poster">
+      <span>2013 – White House Down</span>
+    </div>
+
+    <div class="movie">
+      <img src="images/movieposters/FuturePast.jpg" alt="Days of Future Past" class="poster">
+      <span>2014 – X-Men: Days of Future Past</span>
+    </div>
+
+    <div class="movie">
+      <img src="images/movieposters/DarkPhoenix.png" alt="Dark Phoenix" class="poster">
+      <span>2019 – X-Men: Dark Phoenix</span>
+    </div>
+
+    <div class="movie">
+      <img src="images/movieposters/Transformers.jpg" alt="Transformers Rise of the Beasts" class="poster">
+      <span>2023 – Transformers: Rise of the Beasts</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div id="lightbox">
+  <img id="lightbox-img">
+</div>
+  
   <br>
   <p class="section-content">
     Services include picture boats,Transport Canada certified motorized camera platforms, marine safety coordination, and implementation management of marine based sets. We work in tandem with Production on Studio and CNESST paperwork.
@@ -169,7 +219,23 @@
     </div>
   </footer>
 
+<!-- MOVIE POSTER SCRIPT -->
+<script>
+const posters = document.querySelectorAll(".poster");
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
 
+posters.forEach(poster => {
+  poster.addEventListener("click", () => {
+    lightbox.style.display = "flex";
+    lightboxImg.src = poster.src;
+  });
+});
+
+lightbox.addEventListener("click", () => {
+  lightbox.style.display = "none";
+});
+</script>
 
 </body>
 </html>
