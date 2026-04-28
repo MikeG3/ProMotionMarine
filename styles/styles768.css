@@ -52,24 +52,17 @@ footer {
   display: flex;
   justify-content: space-between; /* Pushes items to the edges */
   width: 100%; /* Ensure the container spans the full width */
-  outline: red solid 1px;
-   
   }
 
 .left-footer {
   text-align: left;
   float: left;
-  
-  outline: red solid 1px;
    
   }
 
 .right-footer {
   text-align: left;
   float: left;
-  
-  outline: red solid 1px;
-   
   }
 
 }
