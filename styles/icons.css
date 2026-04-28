@@ -15,11 +15,24 @@
   gap: 15%; 
 }
 
+.icon-gallery figure{
+  display:flex;
+  flex-direction:column;
+  align-items:center;   /* centers icon + text together */
+  text-align:center;
+}
+
 .icon-gallery figcaption{
   padding-top: 0.5rem;
   flex-direction: column;
   text-align: center;
-  position: relative; left: -10px;
+  position: relative; 
+}
+
+.icon-link-text {
+  text-decoration: none;
+  color: inherit;
+  font-size: larger;
 }
 
 #services {
