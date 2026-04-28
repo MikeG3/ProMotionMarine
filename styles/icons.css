@@ -1,6 +1,7 @@
 .icon {
   width: 150px;
   height: 150px;
+  font-family: 'Lato';
 }
 
 .icon:hover {
@@ -19,4 +20,8 @@
   flex-direction: column;
   text-align: center;
   position: relative; left: -10px;
+}
+
+#services {
+  font-family: 'Lato';
 }

@@ -6,7 +6,18 @@
   align-items: center;
   justify-content: center;
   padding-top: 80px; /* offset for navbar */
+  font-family: 'Source Sans 3';
 }
+
+  /*
+  'Oswald'
+  'Lato' *
+  'Playfair Display'
+  'Roboto'
+  'Montserrat' *
+  'Cinzel'
+  'Source Sans 3'
+*/
 
 .hero-content {
   max-width: 800px;
