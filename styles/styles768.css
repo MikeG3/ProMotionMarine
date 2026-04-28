@@ -1,0 +1,75 @@
+/* RESPONSIVE */
+/*
+For screens 768px and less
+*/
+@media (max-width: 768px) {
+
+  * {
+
+    width: 100%;
+    /* Outline for debugging */
+    /*
+    outline: 1px solid red;
+    outline: none;
+    */
+  }
+
+  .nav-links {
+    gap: 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero {
+    height: auto;
+    padding: 6rem 1rem 4rem;
+  }
+
+  .icon {
+    width: 50%;
+    height: 40%;
+  }
+
+  .icon:hover {
+    width: 60%;
+    height: 50%;
+  }
+
+  .icon-gallery figcaption {
+    padding-top: 0.5rem;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    left: -25%;
+  }
+
+  /* FOOTER */
+footer {
+  background-color: #000000;
+  color: white;
+  display: flex;
+  justify-content: space-between; /* Pushes items to the edges */
+  width: 100%; /* Ensure the container spans the full width */
+  outline: red solid 1px;
+   
+  }
+
+.left-footer {
+  text-align: left;
+  float: left;
+  
+  outline: red solid 1px;
+   
+  }
+
+.right-footer {
+  text-align: left;
+  float: left;
+  
+  outline: red solid 1px;
+   
+  }
+
+}

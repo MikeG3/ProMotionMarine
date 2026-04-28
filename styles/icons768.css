@@ -1,0 +1,10 @@
+/*
+For screens 768px and less
+*/
+@media (max-width: 768px) {
+
+    * {
+        width: 100%;
+      }
+
+}

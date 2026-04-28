@@ -1,9 +1,11 @@
 @import url("menuBarDoubleLine.css");
 @import url("movieposters.css");
 @import url("sectionContent.css");
-@import url("responsive768.css");
 @import url("hero.css");
 @import url("icons.css");
+@import url("styles768.css");
+@import url("menuBar768.css");
+@import url("icons768.css");
 
 /* RESET */
 * {
@@ -11,6 +13,12 @@
   padding: 0;
   box-sizing: border-box;
   z-index: 0;
+
+  /* Outline for debugging */
+  /*
+  outline: 1px solid red;
+  outline: none;
+  */
 }
 
 /* BASE */
@@ -32,9 +40,11 @@ footer {
 .left-footer {
   text-align: left;
   float: left;
+  outline: red solid 1px;
   }
 
 .right-footer {
   text-align: right;
   float: right;
+  outline: red solid 1px;
   }
