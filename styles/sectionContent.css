@@ -28,6 +28,11 @@
   font-size: 2rem;
 }
 
+.dark-section h2, .light-section h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
 .section-content {
   max-width: 900px;
   margin: auto;
