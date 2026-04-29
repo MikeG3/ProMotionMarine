@@ -53,7 +53,7 @@ For screens 768px and less
         overflow-x: auto;      /* allows safe scrolling if needed */     
         justify-content: center;
         align-items: center;
-        gap: 10px;
+        gap: 5px;
         padding: 0 5px;
     }
 
