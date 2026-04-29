@@ -106,6 +106,7 @@ For screens 768px and less
 
     .language-flag {
         height: 15px;
+        width: auto;
     }
 
 
