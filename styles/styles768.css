@@ -27,24 +27,6 @@ For screens 768px and less
     padding: 6rem 1rem 4rem;
   }
 
-  .icon {
-    width: 50%;
-    height: 40%;
-  }
-
-  .icon:hover {
-    width: 60%;
-    height: 50%;
-  }
-
-  .icon-gallery figcaption {
-    padding-top: 0.5rem;
-    flex-direction: column;
-    text-align: center;
-    position: relative;
-    left: -25%;
-  }
-
   /* FOOTER */
 footer {
   background-color: #000000;

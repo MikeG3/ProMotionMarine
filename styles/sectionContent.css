@@ -1,6 +1,7 @@
 /* SECTIONS */
 .section {
-  padding: 5rem 2rem;
+  padding: 0;
+  padding-bottom: 1rem;
 }
 
 .dark-section {
