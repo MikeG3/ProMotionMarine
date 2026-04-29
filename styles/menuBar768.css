@@ -39,8 +39,10 @@ For screens 768px and less
         padding: 3px;
         margin-top: -5px;
         display: block;
+        /*
         max-width: 100%;
         overflow: hidden;
+        */
     }
 
     .navbar_desktop {
@@ -75,10 +77,6 @@ For screens 768px and less
     .nav-menu a:hover {
         background: white;
         color: #0b3c5d;
-    }
-
-    .nav-menu a, .language {
-        white-space: nowrap; /* keeps things clean */
     }
 
     .nav-menu li {
