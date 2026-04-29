@@ -4,6 +4,15 @@
   padding-bottom: 1rem;
 }
 
+#services:hover{
+  background-color: black;
+  color: white;
+}
+
+#services:hover img{
+  filter: invert(1);
+}
+
 .light-section {
   padding: 2rem;
   background: white;
@@ -19,7 +28,6 @@
   outline: black solid 1px;
 }
 
-
 .dark-section {
   padding: 2rem;
   background: #f4f6f8;
@@ -29,9 +37,14 @@
   background: radial-gradient(
     ellipse at center,
     transparent 60%,
-    rgba(100, 100, 100, 0.33) 100%
+    rgba(33, 33, 33, 0.33) 100%
   );
   
+}
+
+.light-section:hover, .dark-section:hover {
+  background-color: black;
+  color: white;
 }
 
 .light-section li, .dark-section li {
