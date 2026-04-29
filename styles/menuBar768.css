@@ -61,7 +61,7 @@ For screens 768px and less
 
 
     /* LINKS */
-    .nav-menu a {
+    .nav-menu a, span {
         color: white;
         text-decoration: none;
         font-size: 14px;
@@ -69,6 +69,7 @@ For screens 768px and less
         padding: 6px 10px;
         border-radius: 4px;
         transition: all 0.2s ease;
+    font-family: 'Lato', serif;
     }
 
     /* HOVER */
