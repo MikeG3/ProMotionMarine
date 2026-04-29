@@ -42,6 +42,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
+  border-top: rgb(168, 22, 22) solid 1px;
 }
 
 /* TEXT */
