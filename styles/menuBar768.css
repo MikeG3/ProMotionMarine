@@ -21,7 +21,8 @@ For screens 768px and less
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 8px 0;
+        padding: 7px;
+        padding-bottom: 2px;
     }
 
     .logo {
@@ -35,7 +36,7 @@ For screens 768px and less
         ========================= */
     .navbar_mobile {
         border-top: 1px solid rgba(255, 255, 255, 0.15);
-        padding: 5px 0;
+        padding: 3px;
         margin-top: -5px;
         display: block;
     }
