@@ -54,7 +54,7 @@ For screens 768px and less
         justify-content: center;
         align-items: center;
         gap: 10px;
-        padding: 0 10px;
+        padding: 0 5px;
     }
 
     /* LINKS */
