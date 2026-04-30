@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   lightbox.addEventListener("click", (e) => {
-    if (e.target !== lightboxImg) {
+    if (!lightboxImg.contains(e.target)) {
       lightbox.style.display = "none";
     }
   });
