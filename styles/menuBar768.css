@@ -111,3 +111,15 @@ For screens 768px and less
 
 
 }
+
+@media (max-width: 460px) {
+
+    .nav-menu
+
+    .french-menu-links {
+        max-width: 30vw;
+        font-size: 14px;
+        padding: 0px 0px;
+    }
+
+}
