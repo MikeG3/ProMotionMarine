@@ -1,0 +1,39 @@
+/* =========================
+   CAMERA LIGHTBOX
+========================= */
+.camera-lightbox{
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background:rgba(0,0,0,0.92);
+    z-index:9999;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+}
+
+/* FULLSCREEN IMAGE */
+.camera-lightbox-img{
+    max-width:92vw;
+    max-height:92vh;
+    width:auto;
+    height:auto;
+    object-fit:contain;
+    border-radius:12px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+
+/* CLOSE BUTTON */
+.camera-close{
+    position:absolute;
+    top:20px;
+    right:35px;
+    font-size:50px;
+    color:white;
+    cursor:pointer;
+    z-index:10000;
+    user-select:none;
+}
