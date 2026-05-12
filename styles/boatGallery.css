@@ -56,8 +56,6 @@
 
 @media (max-width: 768px){
 
-    
-
     .camera-gallery{
         display:flex;
         flex-direction:column;
@@ -72,8 +70,12 @@
         object-fit:cover;
     }
 
-    .boat-gallery{
-        width: 1vw;
-    }
+}
 
+@media screen and (min-width: 768px) and (max-width: 950px) {
+    .boat-gallery {
+        width: 40vw;
+        height: 40vh;
+        border-radius: 10px;
+    }
 }
