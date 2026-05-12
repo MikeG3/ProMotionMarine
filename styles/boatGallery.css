@@ -1,3 +1,15 @@
+/* STATIC IMAGES */
+.boat-gallery{
+    width: 20vw;
+    height: 50vh;
+    gap:15px;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+
 /* =========================
    CAMERA LIGHTBOX
 ========================= */
@@ -36,4 +48,22 @@
     cursor:pointer;
     z-index:10000;
     user-select:none;
+}
+
+@media (max-width: 768px){
+
+    .camera-gallery{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:20px;
+    }
+
+    .camera-gallery img{
+        width:90%;
+        max-width:500px;
+        height:auto;
+        object-fit:cover;
+    }
+
 }

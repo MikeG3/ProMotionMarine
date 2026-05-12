@@ -6,9 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const cameraClose = document.querySelector(".camera-close");
 
     /* OPEN LIGHTBOX */
-
     cameraImages.forEach(img => {
-
         img.addEventListener("click", () => {
             cameraLightbox.style.display = "flex";
             cameraLightboxImg.src = img.src;
