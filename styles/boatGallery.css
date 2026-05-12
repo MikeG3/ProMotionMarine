@@ -8,7 +8,11 @@
     border-radius: 5px;
 }
 
-
+.boat-gallery:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
 
 /* =========================
    CAMERA LIGHTBOX
@@ -52,6 +56,8 @@
 
 @media (max-width: 768px){
 
+    
+
     .camera-gallery{
         display:flex;
         flex-direction:column;
@@ -64,6 +70,10 @@
         max-width:500px;
         height:auto;
         object-fit:cover;
+    }
+
+    .boat-gallery{
+        width: 1vw;
     }
 
 }
